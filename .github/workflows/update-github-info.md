@@ -1,6 +1,6 @@
 ---
 name: update-github-info
-model: auto
+engine: copilot
 description: Keep Mona's GitHub Info page current with useful, source-attributed updates.
 on:
   schedule: daily

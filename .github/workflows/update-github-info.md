@@ -1,5 +1,6 @@
 ---
 name: update-github-info
+model: gpt-4o
 description: Keep Mona's GitHub Info page current with useful, source-attributed updates.
 on:
   schedule: daily

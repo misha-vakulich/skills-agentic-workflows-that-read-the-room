@@ -1,6 +1,7 @@
 ---
 name: update-github-info
 engine: copilot
+model: claude-haiku-4.5
 description: Keep Mona's GitHub Info page current with useful, source-attributed updates.
 on:
   schedule: daily

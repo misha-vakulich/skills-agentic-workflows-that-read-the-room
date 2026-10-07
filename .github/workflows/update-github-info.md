@@ -39,8 +39,7 @@ the page concise and practical, and attribute each update to its GitHub Blog,
 GitHub Changelog, or Awesome Copilot workflows source. Do not invent details or
 add filler when there is no useful update.
 
-Update only `site/content/github-info.md`. If the page needs no meaningful
-changes, leave it unchanged and do not open a pull request.
+Update only `site/content/github-info.md`. Because the structural edit tool is disabled, you must use the `bash` tool to overwrite or update this file. You can execute standard shell commands like `cat << 'EOF' > site/content/github-info.md` to cleanly write out the updated markdown file content. If the page needs no meaningful changes, leave it unchanged and do not open a pull request.
 
 When there are changes, use the configured `create-pull-request` safe output to
 open one pull request for Mona to review. Summarize the updates and cite their

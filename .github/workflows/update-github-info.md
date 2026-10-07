@@ -13,26 +13,28 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
     draft: true
-    fallbash-as-issue: false
+    fallback-as-issue: false
     allowed-files:
       - site/content/github-info.md
 ---
 
 Read `notes/mona-notes.md` first and follow its editorial guidance.
 
-Use `web-fetch` to read both:
+Use `web-fetch` to read all of these sources:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Identify timely GitHub updates that are useful to developers learning GitHub. Keep
-the page concise and practical, and attribute each update to its GitHub Blog or
-GitHub Changelog source. Do not invent details or add filler when there is no
-useful update.
+the page concise and practical, and attribute each update to its GitHub Blog,
+GitHub Changelog, or Awesome Copilot workflows source. Do not invent details or
+add filler when there is no useful update.
 
 Update only `site/content/github-info.md`. If the page needs no meaningful
 changes, leave it unchanged and do not open a pull request.
